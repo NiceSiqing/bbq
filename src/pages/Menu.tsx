@@ -1,6 +1,6 @@
 import Header from "../components/Header";
-import OrderOnline from "@/components/home/OrderOnline";
-import MenuCard from "@/components/home/MenuCard";
+import OrderOnline from "@/components/OrderOnline";
+import MenuCard from "@/components/MenuCard";
 import Footer from "@/components/Footer";
 import products from "@/assets/products";
 import type { Product } from "@/assets/products";
