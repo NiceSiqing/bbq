@@ -150,7 +150,7 @@ const useStore = create<AppState>()(
         });
 
         // 模拟订单状态变化
-        setTimeout(() => get().updateOrderStatus('preparing'), 20000);
+        setTimeout(() => get().updateOrderStatus('preparing'), 6000);
         setTimeout(() => get().updateOrderStatus('delivering'), actualTime * 60 * 1000 * 0.9);
         setTimeout(() => get().updateOrderStatus('complete'), actualTime * 60 * 1000);
       },
