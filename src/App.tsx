@@ -4,12 +4,14 @@ import Menu from "./pages/Menu";
 import Order from "./pages/Order";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
-import Success from "./pages/Success";
+import OrderStatus from "./pages/OrderStatus";
 import Name from "./pages/Name"
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
@@ -17,7 +19,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/success" element={<Success />} />
+        <Route path="/OrderStatus" element={<OrderStatus />} />
       </Routes>
     </BrowserRouter>
   );
