@@ -1,7 +1,9 @@
 # BBQ Chicken - 韩式炸鸡订餐系统 🍗
 
 一个现代化、响应式的韩式炸鸡订餐Web应用，基于React、TypeScript和Tailwind CSS构建。
+
 在线演示：https://siqing-bbq-chicken-project.netlify.app
+
 🛠️ 技术栈
 前端框架
 
